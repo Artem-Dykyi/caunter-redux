@@ -9,11 +9,17 @@ export const Counter = ()=>{
         dispach(increment)
     }
 
-    const handle
+    const handleDecrement = ()=>{
+        dispach(decrement)
+    }
 
     return(
         <>
-            <p></p>
+            <div>
+                <h1>Count {count}</h1>
+                <button onClick={()=>handleIncrement()}>+</button>
+                <button onClick={()=>handleDecrement()}>-</button>
+            </div>
         </>
     )
 }

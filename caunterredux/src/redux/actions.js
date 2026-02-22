@@ -1,8 +1,9 @@
 export const increment ={
-    type: "counter/increment",
+    type: "increment",
     payload: 1,
 }
 
 export const decrement = {
-    type: "counter/decrement"
+    type: "decrement",
+    payload: 1,
 }
